@@ -1,0 +1,89 @@
+/* Estilos da Logo */
+img.Logo {
+    display: block;
+    margin: auto;
+    max-width: 200px;
+    padding-top: 20px;
+}
+
+/* Seletor de Playlists e Botão de Adicionar */
+.Seletora {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;    
+    gap: 25px;               
+}
+
+.Adicionar img {
+    width: 42px;
+    height: auto;
+    cursor: pointer;
+}
+
+.Adicionar {
+    display: inline-block; 
+}
+
+.selecaoPlaylist {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 800px; 
+    font-size: 20px;
+}
+
+/* Referências de Dispositivos e Mensagem de Rodapé */
+.Referencias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin-top: 50px;
+    gap: 590px;
+}
+
+.SelecaoReferencias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.selecaoDispositivo {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 500px; 
+    font-size: 18px;
+}
+
+.MensagemRodape {
+    width: 500px;
+    overflow: auto;
+}
+
+/* Estilos da Timeline */
+.Timeline p {
+    margin-top: 75px;
+    margin-left: 180px;
+    font-size: 30px;
+}
+
+/* Estilos para o Upload */
+.upload-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.uploadSection img {
+    cursor: pointer;
+    width: 150px;
+}
+
+.uploadSection p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}

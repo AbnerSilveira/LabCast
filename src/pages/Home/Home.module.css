@@ -1,0 +1,13 @@
+img {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    padding-top: 20px;
+}
+
+div.introducao {
+    padding-top: 150px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
